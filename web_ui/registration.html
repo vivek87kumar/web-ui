@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Registration</title>
+
+
+
+<script>
+		
+		
+		function mFunction(){
+			alert("heyyyy");
+		}
+		
+		function myFunction() {
+  document.getElementById("myForm").reset();
+}
+		
+	</script>
+</head>
+
+
+<body bgcolor="pink">
+<form >
+<table >
+<h1>DAC BANK-AVAIL LOAN</h1>
+<tr>
+<th align="left">Customer Name</th>
+<td><input type="text"/></td>
+</tr>
+<tr>
+<th align="left">Address</th>
+<td><textarea rows="8" cols="20"></textarea></td>
+</tr>
+<tr>
+<th align="left">Gender</th>
+<td>
+male<input type="radio" name="g" value="m"/>
+female<input type="radio" name="g" value="f"/>
+</td>
+</tr><br>
+<tr>
+<th align="left">Email ID</th>
+<td><input type="email"></td>
+</tr>
+<tr>
+<th align="left">Mobile Number</th>
+<td><input type="number"></td>
+</tr>
+<tr>
+<th align="left">Date of Birth</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+
+<tr>
+<th align="left">Loan Type</th>
+	<td><select>
+	<option  value='slt'>Select Loan Type</option>
+	<option  value='ed'>Education</option>
+	<option  value='car'>Car</option>
+	<option  value='home'>Home</option>
+	<option  value='per'>Personal</option>
+</select></td>
+
+</tr>
+<th align="left">Loan Amount</th>
+<td><input type="text" placeholder="Enter the Amount"></td>
+</tr>
+<tr>
+<th align="left">Tenure</th>
+<td><input type="text"/></td>
+</tr>
+<tr>
+<td>
+<button onclick="mFunction()">Avail Loan</button>
+<input type="reset" value="Reset"/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

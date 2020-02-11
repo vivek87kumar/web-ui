@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 33.33%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.v{
+	width: 100%;
+	height: 10%;
+}
+</style>
+</head>
+<body>
+<video class="v" controls autoplay>
+  <source src="taj.mp4" type="video/mp4">
+</video>
+
+<div class="row">
+  <div class="column">
+    <img src="tk1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tk2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tk4.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tk5.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tk6.jpg" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tk7.jpg" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tk8.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+
+</body>
+</html>

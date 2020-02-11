@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank Loan</title>
+	<style>
+		
+
+		.heading{
+			font-family: solid purple;
+			color: blue;
+			text-align: right;
+		}
+		form  { display: table; }
+		p  { display: table-row;  }
+		input { display: table-cell; }
+
+	.scale{
+		height: 800px;
+		width: 800px;
+	}
+ 
+	</style>
+	<script>
+		
+		
+		function mFunction(){
+			alert("heyyyy");
+		}
+		
+		function myFunction() {
+  document.getElementById("myForm").reset();
+}
+		
+	</script>
+</head>
+<body bgcolor="pink">
+	<div id="grad1">
+	
+	<form id="myForm">
+
+		<fieldset >
+			<legend ><h1  class="heading">DAC BANK - AVAIL LOAN</h1></legend>
+		<p>
+		Customer Name:<input type="text" name="cname"><br><br>
+		Address :<textarea rows="4" cols="50"></textarea><br><br>
+
+		Gender:
+		<input type="radio" value="male">Male
+		<input type="radio" value="female">Female<br><br>
+		Email ID :<input type="Email" name="ename"><br><br>
+		Mobile No :<input type="text" name="mname"><br><br>
+		Date of Birth:<input type="date" name="bday"><br><br>
+		Loan Type:<select>
+		 <option value="ln">Select Loan Type</option>
+ 		 <option value="ed">Education</option>
+ 		 <option value="Car">Car</option>
+ 		 <option value="Per">Personal</option>
+ 		 <option value="HM">Home</option>
+ 		 <option value="Veh">Vehicle</option>
+ 		 </select><br><br>
+		Loan Amount:<input type="text" name="laname" placeholder="Enter the Amount"><br><br>
+		Tenure :<input type="text" name="tname"><br><br>
+		<button onclick="mFunction()">Avail Loan</button>
+		<input type="button" onclick="myFunction()" value="Reset form">
+
+
+	</p></fieldset>
+	</form>
+</div>
+</body>
+</html>
